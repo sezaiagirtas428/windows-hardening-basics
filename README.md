@@ -16,3 +16,10 @@ It focuses on demonstrating fundamental security-hardening concepts in a clear a
 ## Disclaimer
 This project is intended for **educational purposes only**.  
 Always test security scripts in a controlled environment before using them in production systems.
+
+## Security Controls Covered
+- Windows Firewall: Verified enabled for Domain/Private/Public profiles
+- RDP: Verified disabled
+- Microsoft Defender: Verified enabled (Real-time protection enabled)
+- Defender ASR: Enabled rule in Warn mode
+  - D4F940AB-401B-4EFC-AADC-AD5F3C50688A — Block Office applications from creating child processes (Warn)
