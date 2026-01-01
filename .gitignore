@@ -1,2 +1,7 @@
 hardening.log
 *.log
+
+# Logs
+logs/*.log
+*.log
+
